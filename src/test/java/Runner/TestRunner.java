@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 //@RunWith(Cucumber.class)
-@CucumberOptions(features={"src\\test\\java\\Features\\WebTest.feature"},
+@CucumberOptions(features={"src/test/java/Features/WebTest.feature"},
 glue={"Steps"},
 plugin={"io.testproject.sdk.internal.reporting.extensions.cucumber.CucumberReporter"})
 //plugin={"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
